@@ -40,8 +40,16 @@
 ## 5. SW 동작 화면
 
 ### 회원가입, 로그인
-![회원가입](https://github.com/LEE-Hye/FoodCourt/assets/91482127/efe43616-58a2-4fdc-abeb-b12d8712902f)
+![회원가입](https://github.com/LEE-Hye/FoodCourt/assets/91482127/4766ee3f-8b55-49b8-86f9-288138a01bc4)
 
+### 검색
+![검색](https://github.com/LEE-Hye/FoodCourt/assets/91482127/9d2ef363-a62b-4a73-9c11-b9e7cf23f8a0)
+
+### 홈, 결제
+![결제](https://github.com/LEE-Hye/FoodCourt/assets/91482127/cd64b887-50c9-428f-8983-801a76329483)
+
+### 쿠폰
+![쿠폰](https://github.com/LEE-Hye/FoodCourt/assets/91482127/abe145c4-8c37-4485-83fc-8f66b8e5b592)
 
 
 ## 6. 제작 일정
