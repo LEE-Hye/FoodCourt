@@ -8,86 +8,47 @@
 * 기존 학식 정보를 제공해 주는 시스템의 불편함을 개선할 수 있습니다.
 * 학생들의 학식 접근을 높이기 위한 다양한 홍보 방식 및 피드백을 위한 공간을 제공할 수 있습니다.
 
-## 환경
-* React-Native 0.64.1
-* Android Studio
-* Android SDK 29.0.3
-* Python
-* Node.js
+## 1. 프로젝트명
+* 챗봇과 감정분석을 활용한 임산부 감정 케어 서비스
 
-node_modules 폴더가 없는 경우
-```js
-npm install
-```
+## 2. 주요기능
+* 푸드코트 카테고리
 
-Test Run Command
-```js
-npm run android
-```
-```js
-react-native run-android
-```
+* 검색
+  
+* 결제
 
-## 사용된 모듈
-┌ react-navigation : RN 네비게이션 모듈로, 앱하단에 있는 네비게이션 바를 제작하는데 사용. <br>
-├ @react-navigation/native <br>
-├ @react-navigation/bottom-tabs : 하단탭 제작을 위한 모듈. <br>
-└ @react-navigation/stack : 네비게이션을 스택구조로 구현해주는 모듈. <br>
-┌ react-native-qrcode-scanner : QR코드를 스캔할 수 있는 카메라 모듈. <br>
-└ react-native-camera : QR코드 스캐너 모듈을 사용하기 위한 종속모듈. <br>
-┌ firebase : 파이어베이스 모듈. <br>
-├ react-native-firebase <br>
-├ @react-native-firebase/app : 파이어베이스 앱 모듈. <br>
-├ @react-native-firebase/auth : 파이어베이스의 사용자정보 관리 시스템에 접근하기 위한 모듈. <br>
-├ @react-native-firebase/firestore : 파이어베이스의 firestore DB에 접근하기 위한 모듈. <br>
-└ @react-native-firebase/storage : 파이어베이스의 Storage에 접근하기 위한 모듈. <br>
-┌ @react-native-community/masked-view <br>
-├ @react-native-community/checkbox : 체크박스를 구현하기 위한 모듈. <br>
-└ @react-native-community/blur : 화면을 블러처리하기 위한 모듈. <br>
-┌ react-native-svg : SVG 벡터 아이콘을 사용하기 위한 모듈. <br>
-├ react-native-svg-transformer : 종속모듈. <br>
-└ react-native-qrcode-svg : QR코드 생성 모듈. <br>
-─ react-native-keyboard-aware-scroll-view : 키보드 소환시 스크롤 화면으로 전환해주는 모듈. <br>
-┌ react-native-map : 구글 지도 모듈. <br>
-└ react-native-geolocation-service : 사용자의 현재위치 정보를 불러오는 모듈. <br>
-─ react-native-make : App 아이콘과 Splash 이미지를 관리하는 모듈. <br>
-┌ Buffer : Node.js 에서 제공하는 Binary 의 데이터를 담을 수 있는 Object. <br>
-└ buffer-crc32 : crc32 해쉬함수 모듈. <br>
-─ react-native-easy-toast : Android의 Toast를 쉽게 구현해주는 모듈. <br>
-┌ react-native-make : 앱아이콘이나 스플래시 이미지 생성을 도와주는 모듈. <br>
-└ react-native-splash-screen : 스플래시 이미지를 언제 감출지 설정할 수 있는 모듈. <br>
-─ react-native-image-picker : 갤러리나 카메라를 통해 이미지를 가져오는 모듈. <br>
-─ react-native-modal : 모달을 구현할 수 있는 모듈. <br>
-┌ lottie-react-native : JSON으로 생성되는 Adobe After Effects 애니메이션을 렌더링하는 모듈. <br>
-└ react-native-animated-loader : 로딩 애니메이션을 위해 lottie를 사용하는 모듈. <br>
+* 쿠폰
 
-## Study Link
-* [Git과 GitHub](https://brunch.co.kr/@anonymdevoo/3)
-* [Git 시작해보기](https://brunch.co.kr/@anonymdevoo/4)
-* [성공적인 Git Branch 관리모델](http://amazingguni.github.io/blog/2016/03/git-branch-%EA%B7%9C%EC%B9%99)
-* [ReadMe 문서 작성법](https://happybono.wordpress.com/2018/01/03/tip-markdown-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-readme-%EB%AC%B8%EC%84%9C-%EC%9E%91%EC%84%B1%EB%B2%95/)
-* [React Native Docu](https://reactnative.dev/docs/0.64/getting-started)
-* [Building a RN Development Environment](https://dev-yakuza.posstree.com/ko/react-native/install-on-windows/)
-* [Bottom Tabs Navigator](https://reactnavigation.org/docs/bottom-tab-navigator/)
-* [React Native Firebase Login Authentication](https://www.youtube.com/watch?v=cFgoSrOui2M)
-* [React Native Firebase Docu](https://rnfirebase.io/)
-* [React Native AutoLogin & AutoLogout](https://wordbe.tistory.com/entry/React-Native-Auth-%EC%9E%90%EB%8F%99%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%9E%90%EB%8F%99%EB%A1%9C%EA%B7%B8%EC%95%84%EC%9B%83)
-* [React Naitve Firebase Login Authentication Code](https://github.com/itzpradip/react-native-firebase-social-app)
-* [React Firebase Login Persistence](https://velog.io/@cyongchoi/Firebase-%EB%A1%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1)
-* [JavaScript Syntax](https://blex.me/@baealex/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8javascript-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC)
-* [Firebase Auth ErrorCode](https://firebase.google.com/docs/reference/js/v8/firebase.auth.Auth#error-codes_3)
-* [React Native Image-Modal](https://dev-yakuza.posstree.com/ko/react-native/react-native-image-modal/)
-* [React Native Mpas](https://dev-yakuza.posstree.com/ko/react-native/react-native-maps/)
-* [ppt제작용 색상추천 사이트](https://colors.lol/)
-* [ppt제작용 픽토그램 사이트](https://www.flaticon.com/)
-* [JavaScript HashMap](https://m.blog.naver.com/PostView.nhn?blogId=newacadia&logNo=110147183901&proxyReferer=https:%2F%2Fwww.google.com%2F)
-* [HashMap으로 중복없는 쿠폰번호 생성하기](https://blog.naver.com/alwaysblue15/221782308244)
-* [React Native QRCode Generator](https://github.com/cssivision/react-native-qrcode)
-* [React Native에서 App 아이콘 & Splash 이미지 만들기](https://dev-yakuza.posstree.com/ko/react-native/react-native-make/)
-* [App Splash 스크린](https://dev-yakuza.posstree.com/ko/react-native/react-native-splash-screen/)
-* [Next Input Focus on React Native](https://dev.to/rvznkmrllh/next-input-focus-on-react-native-2cb9)
-* [Toast 메시지 구현하기](https://jw910911.tistory.com/96)
+## 3. 개발환경
+|구분|내용|
+|------|---|
+|사용언어|HTML5 / CSS / JavaScript / Node.js|
+|프레임워크|React-Native-Cli 0.64.1|
+|개발도구|VisualStudioCode|
+|데이터베이스|Firebase (Authentication, Firestore Database, Storage)|
 
-## Screenshot
-![텍스트](https://github.com/westreed/FoodCourt/blob/master/screenshot.png)
-![회원가입 키보드](https://github.com/westreed/FoodCourt/blob/master/Register%20Keyboard%20Layout.gif)
+
+## 4. 기능 흐름도
+### 서비스 흐름도(유스케이스)
+#### 서비스 흐름도(앱 화면설계서)
+![화면설계](https://github.com/LEE-Hye/FoodCourt/assets/91482127/2647d66a-7142-4f83-bc31-291d1fb793c9)
+#### 시스템구조도
+![시스템구조도](https://github.com/LEE-Hye/FoodCourt/assets/91482127/f0511b92-bd72-4bb1-b532-383063fc9429)
+
+
+## 5. SW 동작 화면
+
+### 회원가입, 로그인
+![회원가입](https://github.com/LEE-Hye/FoodCourt/assets/91482127/efe43616-58a2-4fdc-abeb-b12d8712902f)
+
+
+
+## 6. 제작 일정
+![제작일정](https://github.com/LEE-Hye/FoodCourt/assets/91482127/398b0368-8724-42df-9590-7b910bd9ddf8)
+
+
+## 7. 팀원 단위 업무 분장 및 결과표
+![팀원](https://github.com/LEE-Hye/FoodCourt/assets/91482127/b06df373-75f0-420f-9af9-6266a4faec5e)
+
+
